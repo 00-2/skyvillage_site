@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sona Template">
+    <meta name="keywords" content="Sona, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Комнаты</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../static/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="../static/css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="../static/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="../static/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="../static/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="../static/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="../static/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="../static/css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Section Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="canvas-open">
+        <i class="icon_menu"></i>
+    </div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="canvas-close">
+            <i class="icon_close"></i>
+        </div>
+        <div class="search-icon  search-switch">
+            <i class="icon_search"></i>
+        </div>
+        <div class="header-configure-area">
+            <a href="./index.html" class="bk-btn">Booking Now</a>
+        </div>
+        <nav class="mainmenu mobile-menu">
+            <ul>
+                <li><a href="./index.html">Главная</a></li>
+                <li class="active"><a href="./rooms.html">Комнаты</a></li>
+                <li><a href="./contact.html">Как нас найти</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <div class="top-social">
+            <a href="https://www.booking.com/hotel/ru/sky-village.ru.html#tab-main"><i class="fa fa-tripadvisor"></i></a>
+        </div>
+        <ul class="top-widget">
+            <li><i class="fa fa-phone"></i> 89262036791</li>
+            <li><i class="fa fa-envelope"></i>alegnin@mail.ru</li>
+        </ul>
+    </div>
+    <!-- Offcanvas Menu Section End -->
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="top-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul class="tn-left">
+                            <li><i class="fa fa-phone"></i>89262036791</li>
+                            <li><i class="fa fa-envelope"></i>alegnin@mail.ru</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="tn-right">
+                            <div class="top-social">
+                                <a href="https://www.booking.com/hotel/ru/sky-village.ru.html#tab-main"><i class="fa fa-tripadvisor"></i></a>
+                            </div>
+                            <a href="./index.html" class="bk-btn">Booking Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="../static/img/logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="nav-menu">
+                            <nav class="mainmenu">
+                                <ul>
+                                    <li><a href="./index.html">Главная</a></li>
+                                    <li class="active"><a href="./rooms.html">Комнаты</a></li>
+
+                                    <li><a href="./contact.html">Как нас найти?</a></li>
+                                </ul>
+                            </nav>
+                            <div class="nav-right search-switch">
+                                <i class="icon_search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Breadcrumb Section Begin -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <h2>Наши номера</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Rooms Section Begin -->
+    <section class="rooms-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="room-item" href="#">
+                        <img src="../static/img/room/room-1.jpg" alt="">
+                        <div class="ri-text">
+                            <h4>Двухместный номер</h4>
+                            <h3>{{ cost_2 }}₽<span>/ночь</span></h3>
+                            <table>
+                                <tbody>
+                                        <tr>
+                                            <td class="r-o">Вместимость:</td>
+                                            <td>Рассчитан на 2</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Кровати:</td>
+                                            <td>Двуспальная</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Services:</td>
+                                            <td>Wifi, Television, Bathroom</td>
+                                        </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="room-item" href="#">
+                        <img src="../static/img/room/room-2.jpg" alt="">
+                        <div class="ri-text">
+                            <h4>Одноместный номер</h4>
+                            <h3>{{ cost_1 }}₽<span>/ночь</span></h3>
+                            <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Вместимость:</td>
+                                            <td>Рассчитан на 1</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Кровати:</td>
+                                            <td>Односпальная</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Services:</td>
+                                            <td>Wifi, Television, Bathroom</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="room-item"  href="#">
+                        <img src="../static/img/room/room-3.jpg" alt="">
+                        <div class="ri-text">
+                            <h4>Двухместный номер(раздельные)</h4>
+                            <h3>{{ cost_2 }}₽<span>/ночь</span></h3>
+                            <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Вместимость:</td>
+                                            <td>Рассчитан на 2</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Кровати:</td>
+                                            <td>2 * Односпальная</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Services:</td>
+                                            <td>Wifi, Television, Bathroom</td>
+                                        </tr>
+                                    </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="room-item"  href="#">
+                        <img src="../static/img/room/room-4.jpg" alt="">
+                        <div class="ri-text">
+                            <h4>Трехместный номер</h4>
+                            <h3>{{ cost_3 }}₽<span>/ночь</span></h3>
+                            <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Вместимость:</td>
+                                            <td>Рассчитан на 3</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Кровати:</td>
+                                            <td>3*Односпальная</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Services:</td>
+                                            <td>Wifi, Television, Bathroom</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Rooms Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-text">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="ft-about">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="../static/img/logo.png" alt="">
+                                </a>
+                            </div>
+                            <p>Приземлиться в кровать</p>
+                            <div class="fa-social">
+                                <a href="https://www.booking.com/hotel/ru/sky-village.ru.html#tab-main"><i class="fa fa-tripadvisor"></i></a>
+                                <a href="https://github.com/00-2"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="ft-contact">
+                            <h6>Contact Us</h6>
+                            <ul>
+                                <li>89262036791</li>
+                                <li>alegnin@mail.ru</li>
+                                <li>д.Котляково, ул.Полевая 2г</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Footer Section End -->
+
+
+    <!-- Js Plugins -->
+    <script src="../static/js/jquery-3.3.1.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/jquery.magnific-popup.min.js"></script>
+    <script src="../static/js/jquery.nice-select.min.js"></script>
+    <script src="../static/js/jquery-ui.min.js"></script>
+    <script src="../static/js/jquery.slicknav.js"></script>
+    <script src="../static/js/owl.carousel.min.js"></script>
+    <script src="../static/js/main.js"></script>
+</body>
+
+</html>
