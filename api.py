@@ -41,7 +41,7 @@ def send_order_info():
         server.starttls(context=context)  # Secure the connection
         server.ehlo()  # Can be omitted
         server.login(sender_email, password)
-        receiver_email = "m.lez@bk.ru"
+        receiver_email = "alegnin@mail.ru"
         message = f"""\
         Content-type: text/html
         Subject: SMTP HTML e-mail test
