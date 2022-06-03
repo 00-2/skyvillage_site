@@ -554,7 +554,7 @@
                  var name = $('#name').val();
                  var tel = $('#tel').val();
                  var mail =  $('#mail').val();
-                 if (tel.length>6) and (mail.length>3) {
+                 if ((tel.length>6) || (mail.length>3)) {
                      $.ajax({
                          type: "POST", // Указываем что будем обращатся к серверу через метод 'POST'
                          url: "/send_order_info",
