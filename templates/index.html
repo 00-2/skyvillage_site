@@ -561,7 +561,7 @@
                          data: JSON.stringify({"date_in": date_in, "date_out": date_out, "num":num, "name":name, "tel":tel, "mail":mail}),
                          contentType: 'application/json;charset=UTF-8',
                          success: function (response) {
-                             if ((mail.length>3)>3){
+                             if (mail.length>3){
                                 alert('Заявка по почте '+ mail + ' подана. Ожидайте ответа на почту');
                              }
                              else{
