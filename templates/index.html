@@ -561,7 +561,12 @@
                          data: JSON.stringify({"date_in": date_in, "date_out": date_out, "num":num, "name":name, "tel":tel, "mail":mail}),
                          contentType: 'application/json;charset=UTF-8',
                          success: function (response) {
-                             alert('Заявка по номеру '+ tel + ' подана. Ожидайте звонка');
+                             if ((mail.length>3)>3){
+                                alert('Заявка по почте '+ mail + ' подана. Ожидайте ответа на почту');
+                             }
+                             else{
+                                 alert('Заявка по телефону '+ tel + ' подана. Ожидайте звонка');
+                             }
                              location.reload();
                          }
                      });
