@@ -48,6 +48,7 @@ def send_order_info():
 
         <b>Новая заявка с сайта:</b>
         <h1>Телефон:{js_temp['tel']}</h1>
+        <h1>Почта:{js_temp['mail']}</h1>
         <h1>Зовут:{js_temp['name']}</h1>
         <h1>Даты:{js_temp['date_in']} - {js_temp['date_out']}</h1>
         <h1>Что хочет:{js_temp['num']}</h1>
